@@ -34,10 +34,10 @@ public class App {
             //session.persist(item);
 
             session.getTransaction().commit();
-        }
-
-        finally {
+        } finally {
             sessionFactory.close();
         }
+
+
     }
 }
